@@ -1,0 +1,13 @@
+graphqlite:
+  namespace:
+    # The namespace(s) that will store your GraphQLite controllers.
+    # It accept either a string or a list of strings.
+    controllers:
+      - App\Company\Infrastructure\Controller
+      - App\Profile\Infrastructure\Controller
+    # The namespace(s) that will store your GraphQL types and factories.
+    # It accept either a string or a list of strings.
+    types:
+      - App\Shared\Infrastructure\Types
+      - App\Company\Infrastructure\Types
+      - App\Profile\Infrastructure\Types
